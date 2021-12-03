@@ -2,22 +2,23 @@
 using namespace std;
 
 char before(char x){
+    char Y = 'Z';
+    char Z = '0';
 	if('A'<x && x <= 'Z'){
 		char y = x-1;
-		cout << y;
-		return 0;
+		return y;
 	}
 	
 	if(x == 'A'){
-		cout << "Z";
-		return 0;
+		return Y;
+		
 	}
 	
 	else{
-		cout << "0";
+	
+		return Z;
 	}
 	
-	return 0;
 
 }
 
