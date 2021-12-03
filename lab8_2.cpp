@@ -8,7 +8,7 @@ int main(){
     string day;
     string goodbye;
     int x;
-    int y;
+    
   
     cout << "Fahsai: Sawadee ka...Can you tell me your name?" << endl;
     cout << "?????: ";
